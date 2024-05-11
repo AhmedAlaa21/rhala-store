@@ -3,5 +3,6 @@ export type TProduct  = {
     title: string;
     prefix: string;
     img: string;
-    price: string
+    price: string;
+    quantity?: number;
 }
